@@ -57,7 +57,7 @@ class ULoginController: UIViewController, UITextFieldDelegate {
                         alert.addAction(UIAlertAction(title: "Okay", style: .default, handler: nil))
                         self.present(alert, animated: true, completion: nil)
                     }
-                    // Perform Segue
+                    self.navigationController?.pushViewController(UHomeController(), animated: true)
                 }
             } else {
                 let AlertController = UIAlertController(title: "Empty Text Field", message: "Your Password Text Field Is Empty", preferredStyle: .alert)
