@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BB57F79ED3A290977A9603F /* Pods_UpShoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED4B6AC7CD22BE07383C703 /* Pods_UpShoe.framework */; };
 		782B05DB23FEEE7400D708D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05DA23FEEE7400D708D9 /* AppDelegate.swift */; };
 		782B05DD23FEEE7400D708D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05DC23FEEE7400D708D9 /* SceneDelegate.swift */; };
-		782B05DF23FEEE7400D708D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05DE23FEEE7400D708D9 /* ViewController.swift */; };
+		782B05DF23FEEE7400D708D9 /* UChooseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05DE23FEEE7400D708D9 /* UChooseController.swift */; };
 		782B05E223FEEE7400D708D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782B05E023FEEE7400D708D9 /* Main.storyboard */; };
 		782B05E423FEEE7B00D708D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782B05E323FEEE7B00D708D9 /* Assets.xcassets */; };
 		782B05E723FEEE7B00D708D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782B05E523FEEE7B00D708D9 /* LaunchScreen.storyboard */; };
+		782B05EF23FEFC3200D708D9 /* ULoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05EE23FEFC3200D708D9 /* ULoginController.swift */; };
+		782B05F123FF001200D708D9 /* USignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05F023FF001200D708D9 /* USignUpController.swift */; };
+		782B05F323FF0D1800D708D9 /* UEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05F223FF0D1800D708D9 /* UEmailController.swift */; };
+		782B05F523FF0E1A00D708D9 /* UCountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05F423FF0E1A00D708D9 /* UCountryController.swift */; };
+		782B05F723FF117A00D708D9 /* UPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B05F623FF117A00D708D9 /* UPasswordController.swift */; };
+		782B05F923FF182B00D708D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 782B05F823FF182B00D708D9 /* GoogleService-Info.plist */; };
+		78B167F424003D43000B73DE /* UHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B167F324003D43000B73DE /* UHomeController.swift */; };
+		78B167F624003D9E000B73DE /* UHomeCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B167F524003D9E000B73DE /* UHomeCell1.swift */; };
+		78B167F82400414C000B73DE /* UHomeCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B167F72400414C000B73DE /* UHomeCell2.swift */; };
+		78B167FA2400415E000B73DE /* UHomeCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B167F92400415E000B73DE /* UHomeCell3.swift */; };
+		78B167FC24004170000B73DE /* UHomeCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B167FB24004170000B73DE /* UHomeCell4.swift */; };
+		78B1680024005CBE000B73DE /* UProfileImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B167FF24005CBE000B73DE /* UProfileImageController.swift */; };
+		78B1680224005FD7000B73DE /* UProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1680124005FD7000B73DE /* UProfileController.swift */; };
+		78B1680424006198000B73DE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1680324006198000B73DE /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		782B05D723FEEE7400D708D9 /* UpShoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpShoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782B05DA23FEEE7400D708D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		782B05DC23FEEE7400D708D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		782B05DE23FEEE7400D708D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		782B05DE23FEEE7400D708D9 /* UChooseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChooseController.swift; sourceTree = "<group>"; };
 		782B05E123FEEE7400D708D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		782B05E323FEEE7B00D708D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782B05E623FEEE7B00D708D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		782B05E823FEEE7B00D708D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782B05EE23FEFC3200D708D9 /* ULoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULoginController.swift; sourceTree = "<group>"; };
+		782B05F023FF001200D708D9 /* USignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USignUpController.swift; sourceTree = "<group>"; };
+		782B05F223FF0D1800D708D9 /* UEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UEmailController.swift; sourceTree = "<group>"; };
+		782B05F423FF0E1A00D708D9 /* UCountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCountryController.swift; sourceTree = "<group>"; };
+		782B05F623FF117A00D708D9 /* UPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPasswordController.swift; sourceTree = "<group>"; };
+		782B05F823FF182B00D708D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		78B167F324003D43000B73DE /* UHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeController.swift; sourceTree = "<group>"; };
+		78B167F524003D9E000B73DE /* UHomeCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeCell1.swift; sourceTree = "<group>"; };
+		78B167F72400414C000B73DE /* UHomeCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeCell2.swift; sourceTree = "<group>"; };
+		78B167F92400415E000B73DE /* UHomeCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeCell3.swift; sourceTree = "<group>"; };
+		78B167FB24004170000B73DE /* UHomeCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeCell4.swift; sourceTree = "<group>"; };
+		78B167FF24005CBE000B73DE /* UProfileImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UProfileImageController.swift; sourceTree = "<group>"; };
+		78B1680124005FD7000B73DE /* UProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UProfileController.swift; sourceTree = "<group>"; };
+		78B1680324006198000B73DE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7ED4B6AC7CD22BE07383C703 /* Pods_UpShoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpShoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E483100798C24FD289AA09C3 /* Pods-UpShoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpShoe.debug.xcconfig"; path = "Target Support Files/Pods-UpShoe/Pods-UpShoe.debug.xcconfig"; sourceTree = "<group>"; };
+		F12B0B3A52C3684727795526 /* Pods-UpShoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpShoe.release.xcconfig"; path = "Target Support Files/Pods-UpShoe/Pods-UpShoe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB57F79ED3A290977A9603F /* Pods_UpShoe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				782B05D923FEEE7400D708D9 /* UpShoe */,
 				782B05D823FEEE7400D708D9 /* Products */,
+				FF56872F79FF97A4662C7585 /* Pods */,
+				FF4B315F289303DA3D4C3577 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +93,44 @@
 			children = (
 				782B05DA23FEEE7400D708D9 /* AppDelegate.swift */,
 				782B05DC23FEEE7400D708D9 /* SceneDelegate.swift */,
-				782B05DE23FEEE7400D708D9 /* ViewController.swift */,
+				782B05DE23FEEE7400D708D9 /* UChooseController.swift */,
+				782B05EE23FEFC3200D708D9 /* ULoginController.swift */,
+				782B05F023FF001200D708D9 /* USignUpController.swift */,
+				782B05F223FF0D1800D708D9 /* UEmailController.swift */,
+				782B05F423FF0E1A00D708D9 /* UCountryController.swift */,
+				782B05F623FF117A00D708D9 /* UPasswordController.swift */,
+				78B167F324003D43000B73DE /* UHomeController.swift */,
+				78B167F524003D9E000B73DE /* UHomeCell1.swift */,
+				78B167F72400414C000B73DE /* UHomeCell2.swift */,
+				78B167F92400415E000B73DE /* UHomeCell3.swift */,
+				78B167FB24004170000B73DE /* UHomeCell4.swift */,
+				78B167FF24005CBE000B73DE /* UProfileImageController.swift */,
+				78B1680124005FD7000B73DE /* UProfileController.swift */,
+				78B1680324006198000B73DE /* Extensions.swift */,
 				782B05E023FEEE7400D708D9 /* Main.storyboard */,
 				782B05E323FEEE7B00D708D9 /* Assets.xcassets */,
 				782B05E523FEEE7B00D708D9 /* LaunchScreen.storyboard */,
 				782B05E823FEEE7B00D708D9 /* Info.plist */,
+				782B05F823FF182B00D708D9 /* GoogleService-Info.plist */,
 			);
 			path = UpShoe;
+			sourceTree = "<group>";
+		};
+		FF4B315F289303DA3D4C3577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED4B6AC7CD22BE07383C703 /* Pods_UpShoe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF56872F79FF97A4662C7585 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E483100798C24FD289AA09C3 /* Pods-UpShoe.debug.xcconfig */,
+				F12B0B3A52C3684727795526 /* Pods-UpShoe.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782B05EB23FEEE7B00D708D9 /* Build configuration list for PBXNativeTarget "UpShoe" */;
 			buildPhases = (
+				FC7EA3ABCC4B0EB18AB1644B /* [CP] Check Pods Manifest.lock */,
 				782B05D323FEEE7400D708D9 /* Sources */,
 				782B05D423FEEE7400D708D9 /* Frameworks */,
 				782B05D523FEEE7400D708D9 /* Resources */,
+				CB7A600486AF263CFB651FD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				782B05E723FEEE7B00D708D9 /* LaunchScreen.storyboard in Resources */,
+				782B05F923FF182B00D708D9 /* GoogleService-Info.plist in Resources */,
 				782B05E423FEEE7B00D708D9 /* Assets.xcassets in Resources */,
 				782B05E223FEEE7400D708D9 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +202,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB7A600486AF263CFB651FD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UpShoe/Pods-UpShoe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UpShoe/Pods-UpShoe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UpShoe/Pods-UpShoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7EA3ABCC4B0EB18AB1644B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UpShoe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		782B05D323FEEE7400D708D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782B05DF23FEEE7400D708D9 /* ViewController.swift in Sources */,
+				782B05F723FF117A00D708D9 /* UPasswordController.swift in Sources */,
+				78B167F82400414C000B73DE /* UHomeCell2.swift in Sources */,
+				78B167F424003D43000B73DE /* UHomeController.swift in Sources */,
+				782B05F323FF0D1800D708D9 /* UEmailController.swift in Sources */,
+				78B167FC24004170000B73DE /* UHomeCell4.swift in Sources */,
+				78B167FA2400415E000B73DE /* UHomeCell3.swift in Sources */,
+				78B1680224005FD7000B73DE /* UProfileController.swift in Sources */,
+				782B05F523FF0E1A00D708D9 /* UCountryController.swift in Sources */,
+				78B1680024005CBE000B73DE /* UProfileImageController.swift in Sources */,
+				78B167F624003D9E000B73DE /* UHomeCell1.swift in Sources */,
+				782B05DF23FEEE7400D708D9 /* UChooseController.swift in Sources */,
+				78B1680424006198000B73DE /* Extensions.swift in Sources */,
+				782B05F123FF001200D708D9 /* USignUpController.swift in Sources */,
 				782B05DB23FEEE7400D708D9 /* AppDelegate.swift in Sources */,
 				782B05DD23FEEE7400D708D9 /* SceneDelegate.swift in Sources */,
+				782B05EF23FEFC3200D708D9 /* ULoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		782B05EC23FEEE7B00D708D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E483100798C24FD289AA09C3 /* Pods-UpShoe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +419,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jorge-Zapata.UpShoe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		782B05ED23FEEE7B00D708D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12B0B3A52C3684727795526 /* Pods-UpShoe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jorge-Zapata.UpShoe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
