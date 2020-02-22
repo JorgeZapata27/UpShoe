@@ -79,7 +79,6 @@ class UPasswordController: UIViewController, UITextFieldDelegate {
                                         if let metaImageURL = url?.absoluteString {
                                             Database.database().reference().child("Users").child(uid!).child("UserProfileImage").setValue(metaImageURL)
                                             print("Success")
-                                            // Perfom Segue
                                         }
                                     }
                                 }
